@@ -8,6 +8,11 @@ header {
     text-align: center; 
 }
 
+body {
+    margin: 0; 
+    background: linear-gradient(to right, #452586, #6A359C, #804FB3, #9969C7, #B589D6); 
+} 
+
 article {
     margin: auto;
     text-align: center;
