@@ -1,0 +1,21 @@
+* {
+    box-sizing: inherit; 
+}
+
+header {
+    background: #000;
+    color: #fff; 
+    text-align: center; 
+}
+
+article {
+    margin: auto;
+    text-align: center;
+    max-width: 800px; 
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
