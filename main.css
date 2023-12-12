@@ -1,0 +1,145 @@
+/* you will add css rules for element selectors and IDs */
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit; 
+}
+
+section {
+    max-width: 50%; 
+}
+
+article {
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 0; 
+    border: none;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.text {
+    background: #fff; 
+    color: #000; 
+    padding: 2rem;
+    line-height: 1.5rem;
+    align-items: center; 
+    margin: 3rem; 
+    width: 600px; 
+}
+
+h2 {
+    text-align: center;
+}
+
+.photo p {
+    width: 600px; 
+}
+
+.photo {
+    justify-content: center; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    color: #fff;
+    background: #808080;
+    padding: 2rem;
+    margin: 0; 
+    align-items: center; 
+    text-transform: uppercase; 
+    border: none; 
+}
+
+nav ul { 
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+
+/* you may add to or change the body rule */
+
+
+#cougar {
+    background: #B26219;
+    width: 100% 
+}
+
+#lion {
+    background: #FFD5AE;
+    width: 100% 
+}
+
+#tiger {
+    background: #FFBD82;
+    width: 100% 
+}
+
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+    align-items: center;
+    vertical-align: middle;
+    padding: 3rem; 
+    justify-content: center; 
+}
+
+footer {
+    display: flex; 
+    color: #fff;
+    background-color: #808080;
+    border: none; 
+    margin: 0;
+    padding: 2rem; 
+    justify-content: center; 
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #EA7C1A;
+}
+a:hover {
+    color: #F5A98C;
+}
